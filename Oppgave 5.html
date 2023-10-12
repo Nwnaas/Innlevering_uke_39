@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var alder = prompt("Hvor gammel er du:");
+
+        if (alder < 9) {
+
+            console.log("Billetten er gratis.");
+
+        } else if (alder >= 9 && alder <= 17) {
+
+            console.log("Billetten koster 20kr.");
+
+        } else if (alder >= 18 && alder <= 65) {
+
+            console.log("Billetten koster 40kr.");
+
+        } else if (alder > 65) {
+
+            console.log("Billetten koster 20kr.");
+
+        } else {
+
+            console.log("Ugyldig alder.");
+
+        }
+
+    </script>
+
+</body>
+
+</html>
